@@ -1,0 +1,20 @@
+body {
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.menu-superior {
+    text-align: right;
+}
+
+.menu-superior li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.producto {
+    width: 100%;
+}
