@@ -1,11 +1,10 @@
+/*Ajusta el borde completo al menu*/
 body {
-    padding: 20px;
-}
-
-.logo {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
-
+  
 .menu-superior {
     text-align: right;
 }
@@ -24,6 +23,7 @@ body {
     text-decoration: underline;
 }
 
+/*Card es igual al producto*/
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -39,3 +39,28 @@ body {
   .container {
     padding: 2px 16px;
   }
+
+/*Ajusta el logo que sale en el menu*/
+.logo {
+    max-width: 180px;
+    height: auto;
+}
+
+/*Cambiar la letra y el tamaño a la fuente del menu*/
+.navbar-link {
+    font-size: 100px; /* Cambia el tamaño de la fuente */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Cambia la fuente */
+}
+
+/*Ajuste de foto dentro del marco*/
+.foto-producto {
+    height: 160px;
+    object-fit: contain;
+}
+
+/*Ajuste de columna*/
+.row-cols-custom {
+    margin: 15px;
+  }
+  
+  
