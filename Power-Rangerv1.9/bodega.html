@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bodega TusMASCOTAS</title>
+  <link rel="stylesheet" href="css/style.CSS">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logo" img src="IMG/Logo.gif" alt="Logo de TusMASCOTAS">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active navbar-link" aria-current="page" href="index.HTML">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active navbar-link" aria-current="page" href="nosotros.HTML">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active navbar-link" aria-current="page" href="misdatos.html">Mis datos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active navbar-link" aria-current="page" href="administracion.html">Administrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active navbar-link" aria-current="page" href="index.HTML">Cerrar sesión</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Agregar Producto</h1>
+    <form>
+      <div class="mb-3">
+        <label for="categoria" class="form-label">Categoría</label>
+        <select class="form-select" id="categoria" name="categoria">
+          <option value="">Seleccionar</option>
+          <option value="alimentos">Perro</option>
+          <option value="medicamentos">Gato</option>
+          <option value="accesorios">Juguetes</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre">
+      </div>
+      <div class="mb-3">
+        <label for="cantidad" class="form-label">Cantidad</label>
+        <input type="number" class="form-control" id="cantidad" name="cantidad">
+      </div>
+      <div class="mb-3">
+        <label for="foto" class="form-label">Foto</label>
+        <input type="file" class="form-control" id="foto" name="foto">
+      </div>
+      <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <h1>Bodega </h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Categoría</th>
+          <th>Nombre</th>
+          <th>Estado</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+            <td>1</td>
+            <td>Perro</td>
+            <td>ROYAL CANIN MINI ADULTO +8 1 KG</td>
+            <td>Disponible</td>
+          <td>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+          </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Perro</td>
+            <td>Animal Planet - Alimento Cachorro Raza Pequeña</td>
+            <td>No disponible</td>
+          <td>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+          </td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Perro</td>
+            <td>Hills Science Diet - Puppy Small Paws Chicken Meal</td>
+            <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Perro</td>
+            <td>Dog Chow - Adulto Minis Y Pequeños Pollo Y Pavo</td>
+            <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+           
+          <tr>
+            <td>5</td>
+            <td>Gato</td>
+            <td>Summit 10 - Alimento Cat Complet Chicken &Rice</td>
+            <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>Gato</td>
+            <td>SPECIAL CAT ADULTO PESCADO</td>
+            <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>Gato</td>
+            <td>Nutrience - Infusion Cat Control Peso</td>
+            <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>8</td>
+            <td>Gato</td>
+            <td>Matisse - Alimento para Gato Castrado Pollo</td>
+            <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>9</td>
+                <td>Juguete</td>
+                <td>Zeedog - Juguete Demogorgon Stranger Things</td>
+                <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>10</td>
+                <td>Juguete</td>
+                <td>Jolly Pets - Cuerda con 3 Nudos Knot-N-Chew</td>
+                <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>11</td>
+                <td>Juguete</td>
+                <td>ROYAL CANIN MINI ADULTO +8 1 KG</td>
+                <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>12</td>
+            <td>Juguete</td>
+            <td>ROYAL CANIN MINI ADULTO +8 1 KG</td>
+            <td>Disponible</td>
+            <td>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </td>
+          </tr>
+
+
+        <!-- Agrega aquí más filas según sea necesario -->
+      </tbody>
+    </table>
+  </div>
+
+  <div class="pie-de-pagina container-fluid">
+    <div class="row p-lg-1 bg-dark text-white">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <p>Whatsapp:+569 45829361</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <p>Facebook TusMASCOTAS
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <p>Instagram TusMASCOTAS
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <p>Direccion: Calle Falsa 123, Santiago
+        </p>
+      </div>
+      <div class="col-sm-12">
+        <p class="text-center">Copyrights - All reserved © 2023</p>
+      </div>
+    </div>
+  </div>
+</body>
