@@ -1,0 +1,94 @@
+<!-- vista de usuario SIN REGISTRAR-->
+
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TusMASCOTAS</title>
+  <link rel="stylesheet" href="css/style.CSS">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="menu-superior"></div>
+  <!-- contenido -->    
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 mt-5">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="text-center">Inicio de sesión</h3>
+          </div>
+          <form class="text-start p-4" id="formIngresar" method="post">
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="inputCorreo1">Correo</label>
+                  <input 
+                    type="Correo" class="form-control" id="inputCorreo1" name="Correo" placeholder="Ingresa tu correo electrónico"/>
+                </div>              
+                <div class="form-group mb-3">
+                  <label for="inputPassword1">Contraseña</label>
+                  <input type="password" class="form-control" id="inputPassword1" name="password" placeholder="Ingresa tu contraseña">
+                </div>
+                <div class="form-group mt-3">
+                  <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
+                </div>
+                <div class="clearfix">
+                  <label class="float-left checkbox-inline"><input type="checkbox"> Recordar</label>
+                  <a href="#" class="float-right">¿Olvidaste tu contraseña?</a>
+                </div>
+              </form>
+            </div>
+          </form>
+          <div class="card-footer">
+            <div class="d-flex justify-content-center links">
+              ¿No tienes una cuenta? <a href="registro.HTML">Regístrate</a>
+            </div>
+            <div class="d-flex justify-content-center links mt-2">
+              <a href="usuarios.html">Presiona aquí para simular que ingresaste como "Cliente"</a>
+            </div>
+            <div class="d-flex justify-content-center links mt-2">
+              <a href="administracion.html">Presiona aquí para simular que ingresaste como "Administrador"</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Pie de página-->
+    <div class="pie-de-pagina container-fluid">
+      <div class="row p-lg-1 bg-dark text-white">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <p>Whatsapp:+569 45829361</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <p>Facebook TusMASCOTAS
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <p>Instagram TusMASCOTAS
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <p>Direccion: Calle Falsa 123, Santiago
+          </p>
+        </div>
+        <div class="col-sm-12">
+          <p class="text-center">Copyrights - All reserved © 2023</p>
+        </div>
+      </div>
+    </div>
+    <div id="pie-pagina">
+      aqui va el footer
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+    <script src="js/validaciones.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
